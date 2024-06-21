@@ -3,7 +3,6 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
 func romanToArabic(roman string) int {
@@ -82,3 +81,4 @@ func main() {
 
 	result := calculate(operator, num1, num2)
 	fmt.Println("Результат:", result)
+}	
